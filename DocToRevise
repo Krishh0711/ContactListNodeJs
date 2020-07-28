@@ -1,0 +1,23 @@
+1) Created index.js
+2)  we run npm init
+3) npm install express
+    ->created server
+    ->we chose template engine
+      EJS -> similar to javascript
+             and html is same
+4)npm install ejs 
+    -> use ejs
+    -> path of views
+    ->ejs file
+    -> form + POST request
+    -> static files
+
+
+Summary
+1) Express
+2) Routes & Controller
+3)EJS
+4)Http request -> get5 , post
+5)Databases-> Mongodb
+           -> mongoose
+           -> Robo3T

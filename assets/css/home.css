@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: gray;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#list-header{
+    /* text-align: center; */
+    color: white;
+    width: 30%;
+    margin: auto;
+}
+
+.list-styling{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   font-weight: bold;
+   background-color:violet;
+   cursor: pointer;
+}
+
+.list-styling:hover{
+    background-color: gray;
+}
+
+.list-styling div{
+    border: 1px solid white;
+    padding: 0px 14px;
+    box-sizing: border-box;
+}
+
+.name{
+   width: 60%;
+}
+
+.phone{
+    width: 40%;
+}
+
+#form-styling{
+    width: 30%;
+    margin: 0px auto;
+    padding: 0 0 0 2.5rem;
+    box-sizing: border-box;
+}
+
+#form-styling button{
+    margin: 0;
+    width: 15%;
+}
+
+#form-styling input{
+   width: 40%;
+   border: none;
+   border-bottom:1px solid gray;
+}
+
+#form-styling input:focus{
+    outline: none;
+ }
